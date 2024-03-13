@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: vmess+ws+tls, server: 104.21.29.176, port: 443, type: vmess, uuid: 3130f180-47e5-4e1a-b39e-f2b52264b873, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /3130f180-47e5-4e1a-b39e-f2b52264b873, headers: {Host: baailiugeizx.top}}, udp: true}
+  - {name: vmess+ws+tls, server: 104.17.32.197, port: 443, type: vmess, uuid: 3130f180-47e5-4e1a-b39e-f2b52264b873, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /3130f180-47e5-4e1a-b39e-f2b52264b873, headers: {Host: baailiugeizx.top}}, udp: true}
 proxy-groups:
   - name: Proxies
     type: select
